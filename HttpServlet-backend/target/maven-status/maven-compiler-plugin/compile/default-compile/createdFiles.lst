@@ -1,0 +1,5 @@
+dev/manyroads/backend/TestService.class
+dev/manyroads/backend/BackendHttpServlet.class
+dev/manyroads/backend/ResponseDTO.class
+dev/manyroads/backend/CORSInterceptor.class
+dev/manyroads/backend/TestServlet.class

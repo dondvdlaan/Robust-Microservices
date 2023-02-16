@@ -1,0 +1,8 @@
+#Thu Feb 16 15:27:33 CET 2023
+configuration*?=82C74109FB21B98E209BECE1775EAC2A93B811A9
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E
+/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/src/main/java/dev/manyroads/backend/TestService.java=1676555338744
+/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/src/main/java/dev/manyroads/backend/BackendHttpServlet.java=1676554542144
+/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/src/main/java/dev/manyroads/backend/CORSInterceptor.java=1676555136644
+/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/src/main/java/dev/manyroads/backend/ResponseDTO.java=1676144607550
+/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/src/main/java/dev/manyroads/backend/TestServlet.java=1676556599074

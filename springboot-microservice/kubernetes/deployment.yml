@@ -1,0 +1,46 @@
+---
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-microservice
+  labels:
+    app: springboot-microservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springboot-microservice
+  template:
+    metadata:
+      labels:
+        app: springboot-microservice
+    spec:
+      containers:
+      # - is a YAML indicator for a sequence item
+      - env:
+        - name: GREETING_BACKENDSERVICEHOST
+          value: backend
+        image: dvdlaan/testrepo:springboot-microservice
+        name: springboot-microservice
+        imagePullPolicy: "Always"
+        ports:
+           - containerPort: 8080
+             name: http
+             protocol: TCP
+
+---
+# Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: springboot-microservice
+  labels:
+    app: springboot-microservice
+spec:
+  ports:
+  - name: http
+    port: 8080
+    targetPort: 8080
+  selector:
+    app: springboot-microservice

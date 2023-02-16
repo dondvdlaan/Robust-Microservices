@@ -1,0 +1,157 @@
+2023-02-16 15:22:51,164 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-02-16 15:22:51,866 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-02-16 15:22:51,877 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-02-16 15:22:52,055 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-02-16 15:22:52,056 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	file.encoding = UTF-8
+	file.separator = /
+	java.awt.headless = true
+	java.class.path = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/jboss-modules.jar
+	java.class.version = 61.0
+	java.home = /usr/lib/jvm/jdk-17.0.6
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.6+9-LTS-190
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.6+9-LTS-190
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server
+	jboss.host.name = dl-esprimo-p756
+	jboss.modules.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = dl-esprimo-p756
+	jboss.qualified.host.name = dl-esprimo-p756
+	jboss.server.base.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone
+	jboss.server.config.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/configuration
+	jboss.server.data.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/data
+	jboss.server.deploy.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/data/content
+	jboss.server.log.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/log
+	jboss.server.name = dl-esprimo-p756
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/configuration/logging.properties
+	module.path = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/modules
+	native.encoding = UTF-8
+	org.jboss.boot.log.file = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 5.19.0-32-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.library.path = /usr/lib/jvm/jdk-17.0.6/lib
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/jboss-modules.jar -mp /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/modules org.jboss.as.standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.stderr.encoding = UTF-8
+	sun.stdout.encoding = UTF-8
+	user.country = US
+	user.dir = /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend
+	user.home = /home/dl
+	user.language = en
+	user.name = dl
+	user.timezone = Europe/Berlin
+2023-02-16 15:22:52,059 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -Djava.net.preferIPv4Stack=true -Djava.awt.headless=true -Djboss.modules.system.pkgs=org.jboss.byteman --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-modules=java.se -Djava.security.manager=allow -Djboss.home.dir=/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server -Djboss.server.base.dir=/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone -Djboss.server.log.dir=/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/log -Djboss.server.config.dir=/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/configuration -Dorg.jboss.boot.log.file=/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/log/server.log -Dlogging.configuration=file:/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/configuration/logging.properties 
+2023-02-16 15:22:53,180 INFO  [org.wildfly.security] (ServerService Thread Pool -- 5) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-02-16 15:22:53,667 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 13) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-16 15:22:53,668 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 13) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-02-16 15:22:54,004 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 18) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-16 15:22:54,161 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-16 15:22:54,198 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.8.Final
+2023-02-16 15:22:54,227 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.8.Final
+2023-02-16 15:22:54,370 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.26.Final
+2023-02-16 15:22:54,377 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-02-16 15:22:54,435 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-16 15:22:54,445 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-02-16 15:22:54,464 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-02-16 15:22:54,475 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-02-16 15:22:54,480 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2023-02-16 15:22:54,540 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-02-16 15:22:54,565 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-02-16 15:22:54,567 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-02-16 15:22:54,580 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-02-16 15:22:54,591 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-02-16 15:22:54,598 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-02-16 15:22:54,614 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-16 15:22:54,680 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-02-16 15:22:54,779 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-16 15:22:54,821 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file '/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/configuration/application.keystore' does not exist. Used blank.
+2023-02-16 15:22:54,843 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY01084: KeyStore /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-02-16 15:22:54,845 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-16 15:22:54,844 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2023-02-16 15:22:54,839 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-02-16 15:22:55,033 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2023-02-16 15:22:55,033 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2023-02-16 15:22:55,069 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-02-16 15:22:55,227 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path '/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-16 15:22:55,228 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-02-16 15:22:55,229 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) Queuing requests.
+2023-02-16 15:22:55,231 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-02-16 15:22:55,303 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-16 15:22:55,491 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-16 15:22:55,608 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-16 15:22:55,704 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-16 15:22:56,122 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-16 15:22:56,151 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/deployments
+2023-02-16 15:22:56,301 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-02-16 15:22:56,472 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-16 15:22:56,475 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 6029ms - Started 290 of 563 services (357 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-02-16 15:22:56,477 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-16 15:22:56,477 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-16 15:22:57,095 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/HttpServlet-backend/target/server/standalone/data/content/35/7ba27f9220a4abef379dfa93ec0801dc882441/content
+2023-02-16 15:22:57,117 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "backend.war" (runtime-name: "backend.war")
+2023-02-16 15:22:59,778 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment backend.war
+2023-02-16 15:22:59,937 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-02-16 15:23:00,351 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-02-16 15:23:00,363 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-02-16 15:23:00,365 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=backend.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=dl-ESPRIMO-P756, jaeger.version=Java-1.6.0, ip=127.0.1.1}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-02-16 15:23:00,463 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 5.1.0 (Final)
+2023-02-16 15:23:01,504 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: '/backend' for server 'default-server'
+2023-02-16 15:23:01,592 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "backend.war" (runtime-name : "backend.war")
+2023-02-16 15:23:55,138 INFO  [stdout] (default task-1) TestServlet doGet
+2023-02-16 15:24:49,623 INFO  [stdout] (default task-1) Route: BackendHttpServlet doGet
+2023-02-16 15:24:49,753 INFO  [stdout] (default task-1) Route: BackendHttpServlet doGet greeting bkbb
+2023-02-16 15:24:49,754 INFO  [stdout] (default task-1) Route: BackendHttpServlet doGet response bkbb from cluster Backend
+2023-02-16 15:25:10,527 INFO  [stdout] (default task-1) Route: BackendHttpServlet doGet
+2023-02-16 15:25:10,528 INFO  [stdout] (default task-1) Route: BackendHttpServlet doGet greeting Hello Spring Boot
+2023-02-16 15:25:10,528 INFO  [stdout] (default task-1) Route: BackendHttpServlet doGet response Hello Spring Boot from cluster Backend
+2023-02-16 15:25:40,607 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2023-02-16 15:25:40,612 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-02-16 15:25:40,619 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-02-16 15:25:40,664 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-02-16 15:25:40,666 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: '/backend' from server 'default-server'
+2023-02-16 15:25:40,673 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2023-02-16 15:25:40,718 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-02-16 15:25:40,719 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-02-16 15:25:40,748 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2023-02-16 15:25:40,748 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-02-16 15:25:40,749 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-02-16 15:25:40,750 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-02-16 15:25:40,751 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.3.0.Final stopping
+2023-02-16 15:25:40,770 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment backend.war (runtime-name: backend.war) in 135ms
+2023-02-16 15:25:40,781 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) stopped in 150ms
