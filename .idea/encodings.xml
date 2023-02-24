@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/HttpServlet-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HttpServlet-backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-microservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-microserviceII/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quarkus-microserviceII/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/robust-microservices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/robust-microservices/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-microservice/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

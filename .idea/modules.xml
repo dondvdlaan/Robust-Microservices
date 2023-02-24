@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Robust-Microservices.iml" filepath="$PROJECT_DIR$/.idea/Robust-Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpServlet-backend/backend.iml" filepath="$PROJECT_DIR$/HttpServlet-backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robust-microservices/robust-microservices.iml" filepath="$PROJECT_DIR$/robust-microservices/robust-microservices.iml" />
+    </modules>
+  </component>
+</project>

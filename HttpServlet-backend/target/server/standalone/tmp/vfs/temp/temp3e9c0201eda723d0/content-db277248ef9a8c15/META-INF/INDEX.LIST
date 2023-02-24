@@ -1,0 +1,13 @@
+JarIndex-Version: 1.0
+
+backend.war
+META-INF
+WEB-INF
+WEB-INF/classes
+WEB-INF/classes/dev
+WEB-INF/classes/dev/manyroads
+WEB-INF/classes/dev/manyroads/backend
+WEB-INF/classes/dev/manyroads/microservice
+WEB-INF/classes/dev/manyroads/microservice/backend
+WEB-INF/lib
+

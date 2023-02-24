@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 17
+Specification-Title: backend
+Specification-Version: 1.0
+Specification-Vendor: JBoss by Red Hat
+Implementation-Title: backend
+Implementation-Version: 1
+Implementation-Vendor: JBoss by Red Hat
+Implementation-URL: https://github.com/wildfly/wildfly-quickstart-parent
+ /backend
+Java-Vendor: Oracle Corporation
+Java-Version: 17.0.6
+Os-Arch: amd64
+Os-Name: Linux
+Os-Version: 5.19.0-32-generic
+Scm-Connection: scm:git:git@github.com:jboss/jboss-parent-pom.git/wildfl
+ y-quickstart-parent/backend
+Scm-Revision: 0e7210d2cc10bea2ffa2d3b59e8cf6b24ffa4b27
+Scm-Url: http://github.com/jboss/jboss-parent-pom/wildfly-quickstart-par
+ ent/backend
+

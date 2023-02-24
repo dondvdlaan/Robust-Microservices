@@ -4,16 +4,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a3874ab-eed0-4bcd-a3f6-70e6c5f9232b" name="Changes" comment="" />
+    <list default="true" id="0a3874ab-eed0-4bcd-a3f6-70e6c5f9232b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/kubernetes/deployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/backend/BackendHttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/microservice/backend/BackendHttpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/backend/CORSInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/microservice/backend/CORSInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/backend/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/microservice/backend/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/backend/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/microservice/backend/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/backend/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/src/main/java/dev/manyroads/microservice/backend/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/backend-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/backend-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/backend.war" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/backend.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/classes/dev/manyroads/backend/BackendHttpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/classes/dev/manyroads/backend/CORSInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/classes/dev/manyroads/backend/ResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/classes/dev/manyroads/backend/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/classes/dev/manyroads/backend/TestServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone_xml_history/current/standalone.v1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone_xml_history/standalone.boot.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone_xml_history/standalone.boot.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone_xml_history/standalone.last.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/configuration/standalone_xml_history/standalone.last.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/data/content/35/7ba27f9220a4abef379dfa93ec0801dc882441/content" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/log/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/server/standalone/log/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpServlet-backend/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/HttpServlet-backend/target/site/checkstyle.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/kubernetes/deployment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/src/main/java/dev/manyroads/microservices/springbootmicroservice/BackendDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/src/main/java/dev/manyroads/microservices/springbootmicroservice/GreeterRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/src/main/java/dev/manyroads/microservices/springbootmicroservice/SpringbootMicroserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/src/main/java/dev/manyroads/microservices/springbootmicroservice/TestRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-microservice/src/test/java/dev/manyroads/microservices/springbootmicroservice/SpringbootMicroserviceApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2LoSNH5hLLMBHw8V2fNUb968N71" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,10 +87,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/dl/Documents/GitHub/Building-Blocks/K8-SPRING-HttpServlet-Microservices/springboot-microservice",
+    "last_opened_file_path": "/home/dl/Documents/GitHub/Building-Blocks/Robust-Microservices",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.14822547",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.18828933"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -44,5 +109,16 @@
       <updated>1676535900513</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
